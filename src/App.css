@@ -1,0 +1,135 @@
+General reset and styling
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.main-content {
+    flex: 3;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.sidebar {
+    flex: 1;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-left: 1px solid #ddd;
+    overflow-y: auto;
+}
+
+/* Property list styling */
+.property-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.property-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.property-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Favorites styling */
+.favorites-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.favorite-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    background: #fff;
+}
+
+.favorite-item img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* Buttons */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .app-container {
+        flex-direction: column;
+    }
+
+    .main-content {
+        flex: unset;
+        padding: 10px;
+        height: auto;
+    }
+
+    .sidebar {
+        flex: unset;
+        padding: 10px;
+        border-left: none;
+        border-top: 1px solid #ddd;
+    }
+
+    .property-list {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .favorite-item img {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    .property-item {
+        font-size: 14px;
+    }
+
+    button {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+
+    .favorite-item img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+

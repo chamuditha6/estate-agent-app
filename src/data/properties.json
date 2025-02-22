@@ -1,0 +1,186 @@
+{
+  "properties": [
+    {
+      "id": "prop1",
+      "type": "House",
+      "bedrooms": 3,
+      "price": 750000,
+      "location": "Petts Wood Road, Petts Wood, Orpington BR5",
+      "coordinates": 
+      { "lat": 51.3897, 
+      "lng":0.0707 },
+      "picture": "/images/prop1pic1small.jpg",
+      "images": [
+        "/images/prop1pic1.jpg",
+        "/images/prop1pic2.jpg",
+        "/images/prop1pic3.jpg",
+        "/images/prop1pic4.jpg",
+        "/images/prop1pic5.jpg",
+        "/images/prop1pic6.jpg"
+      ],
+      "longDescription": "This is a spacious 3-bedroom house with modern amenities, including a large kitchen, two reception rooms, a conservatory, and a well-maintained garden. Located close to local shops, schools, and Petts Wood station.",
+      "floorPlan": "/images/prop1floorplan.jpg",
+      "added": {
+        "month": "October",
+        "day": 12,
+        "year": 2024
+      }
+    },
+    {
+      "id": "prop2",
+      "type": "Flat",
+      "bedrooms": 2,
+      "price": 399995,
+      "location": "Crofton Road, Orpington BR6",
+      "coordinates": 
+      { "lat": 51.3897, 
+      "lng":0.0707 },
+      "picture": "/images/prop2pic1small.jpg",
+      "images": [
+        "/images/prop2pic1.jpg",
+        "/images/prop2pic2.jpg",
+        "/images/prop2pic3.jpg",
+        "/images/prop2pic4.jpg",
+        "/images/prop2pic5.jpg",
+        "/images/prop2pic6.jpg"
+      ],
+      "longDescription": "A cozy two-bedroom flat with a private garden and modern interiors, including a spacious living area, open-plan kitchen with integrated appliances, and bi-fold doors leading to a secluded courtyard garden.",
+      "floorPlan": "/images/prop2floorplan.jpg",
+      "added": {
+        "month": "September",
+        "day": 14,
+        "year": 2022
+      }
+    },
+    {
+      "id": "prop3",
+      "type": "House",
+      "bedrooms": 4,
+      "price": 950000,
+      "location": "Crescent Road, Orpington BR6",
+      "coordinates": 
+      { "lat": 51.3897, 
+      "lng":0.0707 },
+      "picture": "/images/prop3pic1small.jpg",
+      "images": [
+        "/images/prop3pic1.jpg",
+        "/images/prop3pic2.jpg",
+        "/images/prop3pic3.jpg",
+        "/images/prop3pic4.jpg",
+        "/images/prop3pic5.jpg",
+        "/images/prop3pic6.jpg"
+      ],
+      "longDescription": "A beautifully presented 4-bedroom detached house in a quiet residential area. Features include a large living room, separate dining room, modern kitchen, master bedroom with en-suite, family bathroom, and a private rear garden.",
+      "floorPlan": "/images/prop3floorplan.jpg",
+      "added": {
+        "month": "December",
+        "day": 5,
+        "year": 2023
+      }
+    },
+    {
+      "id": "prop4",
+      "type": "House",
+      "bedrooms": 5,
+      "price": 1150000,
+      "location": "Warren Road, Orpington BR6",
+      "coordinates": 
+      { "lat": 51.3897, 
+      "lng":0.0707 },
+      "picture": "/images/prop4pic1small.jpg",
+      "images": [
+        "/images/prop4pic1.jpg",
+        "/images/prop4pic2.jpg",
+        "/images/prop4pic3.jpg",
+        "/images/prop4pic4.jpg",
+        "/images/prop4pic5.jpg",
+        "/images/prop4pic6.jpg"
+      ],
+      "longDescription": "A stunning 5-bedroom family home with a large open-plan living area, a modern kitchen with high-end appliances, a double garage, and an expansive garden. Located in a sought-after residential area with great local schools and transport links.",
+      "floorPlan": "/images/prop4floorplan.jpg",
+      "added": {
+        "month": "October",
+        "day": 25,
+        "year": 2023
+      }
+    },
+    {
+      "id": "prop5",
+      "type": "Flat",
+      "bedrooms": 1,
+      "price": 250000,
+      "location": "High Street, Orpington BR6",
+      "coordinates": 
+      { "lat": 51.3897, 
+      "lng":0.0707 },
+      "picture": "/images/prop5pic1small.jpg",
+      "images": [
+        "/images/prop5pic1.jpg",
+        "/images/prop5pic2.jpg",
+        "/images/prop5pic3.jpg",
+        "/images/prop5pic4.jpg",
+        "/images/prop5pic5.jpg",
+        "/images/prop5pic6.jpg"
+      ],
+      "longDescription": "A charming 1-bedroom flat in a prime location close to Orpington High Street and the train station. Features include a modern kitchen, a spacious living room, and a well-sized bedroom. Ideal for first-time buyers or investors.",
+      "floorPlan": "/images/prop5floorplan.jpg",
+      "added": {
+        "month": "November",
+        "day": 3,
+        "year": 2023
+      }
+    },
+    {
+      "id": "prop6",
+      "type": "Flat",
+      "bedrooms": 3,
+      "price": 525000,
+      "location": "Park Avenue, Orpington BR5",
+      "coordinates": 
+      { "lat": 51.3897, 
+      "lng":0.0707 },
+      "picture": "/images/prop6pic1small.jpg",
+      "images": [
+        "/images/prop6pic1.jpg",
+        "/images/prop6pic2.jpg",
+        "/images/prop6pic3.jpg",
+        "/images/prop6pic4.jpg",
+        "/images/prop6pic5.jpg",
+        "/images/prop6pic6.jpg"
+      ],
+      "longDescription": "A spacious 3-bedroom first-floor flat in a quiet residential area. The property features a large living area, modern kitchen with integrated appliances, and a private balcony with views over the communal gardens. Close to shops, schools, and transport links.",
+      "floorPlan": "/images/prop6floorplan.jpg",
+      "added": {
+        "month": "January",
+        "day": 10,
+        "year": 2024
+      }
+    },
+    {
+      "id": "prop7",
+      "type": "House",
+      "bedrooms": 3,
+      "price": 675000,
+      "location": "Bromley Road, Orpington BR5",
+      "coordinates": 
+      { "lat": 51.3897, 
+      "lng":0.0707 },
+      "picture": "/images/prop7pic1small.jpg",
+      "images": [
+        "/images/prop7pic1.jpg",
+        "/images/prop7pic2.jpg",
+        "/images/prop7pic3.jpg",
+        "/images/prop7pic4.jpg",
+        "/images/prop7pic5.jpg",
+        "/images/prop7pic6.jpg"
+      ],
+      "longDescription": "This well-presented 3-bedroom semi-detached house offers a spacious living room, separate dining area, modern kitchen, and a large garden with patio area. It is within walking distance to local amenities, schools, and Orpington station.",
+      "floorPlan": "/images/prop7floorplan.jpg",
+      "added": {
+        "month": "December",
+        "day": 18,
+        "year": 2023
+      }
+    }
+  ]
+}
